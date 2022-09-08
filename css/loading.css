@@ -165,13 +165,9 @@
 	.status {
 		position: absolute;
 		color: #968a72;
-		font-size: 145%;
-		bottom: 5.8%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		line-height: 24px;
 		margin-left: auto;
 		margin-right: auto;
+		bottom: 20%;
 	}
 
 	.left_boder {
