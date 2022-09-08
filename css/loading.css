@@ -165,9 +165,12 @@
 	.status {
 		position: absolute;
 		color: #968a72;
-		margin-left: auto;
-		margin-right: auto;
-		bottom: 20%;
+		text-align: center
+		font-size: 145%;
+		bottom: 5.8%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		line-height: 24px;
 	}
 
 	.left_boder {
