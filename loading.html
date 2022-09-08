@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>ANARCHY CELL</title>
+		<link rel="stylesheet" type="text/css" href="css/loading.css?3" />
+	</head>
+	<body>
+		<div id="server_logo">
+			<img src='image/anarchycell_logo.png' class="server_logo"/>
+		</div>
+
+		<div id="left_boder">
+			<img src='image/borders/border_left.png' class="left_boder"/>
+		</div>
+
+		<div id="right_boder">
+			<img src='image/borders/border_right.png' class="right_boder"/>
+		</div>
+
+		<div id="map_image">
+			<img src='image/maps/anarchycell_no_map.png' class="map_image"/>
+		</div>
+
+		<div class = "status">Connecting...</div>
+	</body>
+
+	<script type="text/javascript">
+		
+		function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, lang, gamemodeNice )
+		{
+			$("map_image").attr("src", "image/maps/mapimage/" + mapname + ".png");
+
+		}
+
+		function SetStatusChanged( status )
+		{
+			$("status").text( status );
+		}
+	</script>
+
+</html>

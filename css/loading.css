@@ -1,0 +1,113 @@
+
+@media screen and (max-width: 1920px) {
+	@font-face {
+		font-family: "Graffiti1CTT";
+		src: url(..Graffiti1CTT.ttf);
+	}
+
+	BODY {
+		overflow: hidden;
+		margin: 0px;
+		background-position: center;
+		background-size: 88% 100%;
+
+		background-color: #000;
+		background-image: url(../image/backgrounds/main_background.png);
+
+		text-align: center;
+		font-family: "Graffiti1CTT";
+	}
+
+	.map_image 
+	{
+		position: fixed;
+		left: 6%;
+		top: 0px;
+		width: 88%;
+		height: 100%;
+	}
+
+	.status {
+		position: fixed;
+		color: #e7ab2a;
+		font-size: 1.2vw;
+		bottom: 3.4vw;
+		left: 47vw;
+	}
+	
+	.left_boder {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 12%;
+		height: 100%;
+	}
+
+	.right_boder {
+		position: fixed;
+		right: 0px;
+		top: 0px;
+		width: 12%;
+		height: 100%;
+	}
+
+	.server_logo
+	{
+		position: fixed;
+		top: 2vw;
+		left: 35vw;
+		width: 28vw;
+		height: 12vw;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	BODY {
+		overflow: hidden;
+		margin: 0px;
+		background-position: center;
+		background-size: 100% 100%;
+
+		background-color: #000;
+		background-image: url(../image/backgrounds/main_background.png);
+
+		text-align: center;
+		font-family: "Graffiti1CTT";
+	}
+
+	.status {
+		position: relative;
+		color: #e7ab2a;
+		font-size: 1.2vw;
+		left: 0px;
+		top: 90.7%;
+	}
+
+	.map_image 
+	{
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+	}
+
+	.left_boder {
+		display: none;
+	}
+
+	.right_boder {
+		display: none;
+	}
+
+	.server_logo
+	{
+		position: fixed;
+		top: 4vw;
+		left: 34vw;
+		width: 32vw;
+		height: 14vw;
+	}
+
+}
+
