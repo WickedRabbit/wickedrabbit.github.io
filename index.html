@@ -1,40 +1,27 @@
 <html>
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>ANARCHY CELL</title>
 		<link rel="stylesheet" type="text/css" href="css/loading.css?3" />
 	</head>
 	<body>
-		<div id="server_logo">
-			<img src='image/anarchycell_logo.png' class="server_logo"/>
-		</div>
+		<img id="server_logo" src='image/anarchycell_logo.png' class="server_logo"/>
 
-		<div id="left_boder">
-			<img src='image/borders/border_left.png' class="left_boder"/>
-		</div>
+		<img id="left_boder" src='image/borders/border_left_V2.png' class="left_boder"/>
 
-		<div id="right_boder">
-			<img src='image/borders/border_right.png' class="right_boder"/>
-		</div>
+		<img id="right_boder" src='image/borders/border_right_V2.png' class="right_boder"/>
 
-		<div id="map_image">
-			<img src='image/maps/anarchycell_no_map.png' class="map_image"/>
-		</div>
+		<img id="map_image" src='image/maps/anarchycell_no_map.png' class="map_image"/>
 
-		<div class = "status">Connecting...</div>
+		<img id="loading_progress" src='image/loading_progress/loading_0.png' class="loading_progress"/>
+
+		<span id="status" class = "status">Подключение...</span>
+
+		<script src="js/main.js"></script>
+		<script src="js/contentloaded.js"></script>
+    	<script src="js/demo.js"></script>
+
 	</body>
-
-	<script type="text/javascript">
-		
-		function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamemode, volume, lang, gamemodeNice )
-		{
-			$("map_image").attr("src", "image/maps/mapimage/" + mapname + ".png");
-
-		}
-
-		function SetStatusChanged( status )
-		{
-			$("status").text( status );
-		}
-	</script>
 
 </html>
